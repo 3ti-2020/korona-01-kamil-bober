@@ -9,22 +9,38 @@
       "left main main";
   }
   .head {
-    background-color: black;
+    background-image: url(https://image.shutterstock.com/image-photo/nature-panoramic-landscape-amazing-panorama-260nw-759600259.jpg);
+    background-color:black;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     grid-area: head;
     font-size: 20px;
     text-align: center;
   }
   .left {
+    background-image: url(https://fsa.zobj.net/crop.php?r=WJoxDQik7NeFOIlXBkUq5uFzkyXUQFxvXZfJ7ESrDdb6SJAIyLf_AHPh3iHxExc9YW2fOWuGMf8txiyEywPSsGOSgnyed6x0Uz6ORkGb5WkzIbUeIlgH9ei6r_P8-tEp1cx3Y2UUcBAGgUtM1nzt1MYkTOhdQfRp8aOXRCHClzNm73OWFJsAMf7T9EikT5ENSmzLgHjsZOkjhgWx);
+    background-repeat: no-repeat;
+    background-size: 40% 100%;
+    background-attachment: fixed;
     background-color: gray;
     color: royalblue;
     grid-area: left;
-    font-size: 30px;
+    font-size: 20px;
   }
   .main {
+    background-image: url(https://www.tuningblog.eu/wp-content/uploads/2018/01/Stanic-Performance-BMW-M6-Coupe-Tuning-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #2e2e2e;
     color: white;
     grid-area: main;
     font-size: 20px;
+    text-align: center;
+    line-height: 600px;
   }
-  
+  ul{
+    display:flex;
+    flex-direction: column;
+    justify-items: space-between;
+  }
