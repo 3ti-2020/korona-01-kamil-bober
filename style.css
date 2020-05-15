@@ -1,3 +1,30 @@
-body {
-color: darkgrey;
-}
+.cont {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template-columns: 20fr 60fr;
+    grid-template-rows: 20% 80%;
+    grid-template-areas:
+      "head head head"
+      "left main main";
+  }
+  .head {
+    background-color: black;
+    color: white;
+    grid-area: head;
+    font-size: 20px;
+    text-align: center;
+  }
+  .left {
+    background-color: gray;
+    color: royalblue;
+    grid-area: left;
+    font-size: 30px;
+  }
+  .main {
+    background-color: #2e2e2e;
+    color: white;
+    grid-area: main;
+    font-size: 20px;
+  }
+  
