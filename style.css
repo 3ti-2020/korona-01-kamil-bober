@@ -37,10 +37,14 @@
     grid-area: main;
     font-size: 20px;
     text-align: center;
-    line-height: 600px;
   }
   ul{
     display:flex;
     flex-direction: column;
     justify-items: space-between;
   }
+  table, tr, td, th{
+    border: 1px solid darkred;
+    background: rgb(0, 0, 0);
+    padding: 2px;
+}
