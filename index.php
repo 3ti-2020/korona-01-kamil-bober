@@ -12,6 +12,7 @@
           <h1>Kamil Bober</h1>
           <h2>Kolekcja Bogdana</h2>
           <h3>Na AMG przyjdzie pora</h3>
+          
         </div>
       <div class="left">
         <h1>Szybkie Samochody</h1>
@@ -19,6 +20,8 @@
           <li><a href="pod.html">SZYBKI</a></li>
           <li><a href="pod2.html">SZYBKI 2</a></li>
           <li><a href="pod3.html">SZYBKI 3</a></li>
+          <button class="num" >BMW</button>
+          <button class="num2">MERCTEDES</button>
         </ul>
       </div>
         <div class="main">
@@ -64,4 +67,5 @@
    </div>
   
 </body>
+<script src="main.js"></script>
 </html>
